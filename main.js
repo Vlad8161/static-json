@@ -5,8 +5,14 @@ app.get('/', (req, res) => {
   res.send({
     name: 'Device 1',
     actions: [
-      'test',
-      'wipe'
+      {
+        id: 'eb34ac05-b1de-4129-acb7-e8a1bde5b1b6',
+        action: 'test'
+      },
+      {
+        id: 'eb34ac05-b1de-4129-acb7-e8a1bde5b1b6',
+        action: 'wipe'
+      }
     ]
   })
 })
